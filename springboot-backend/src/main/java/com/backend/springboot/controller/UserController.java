@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.backend.springboot.model.User;
 import com.backend.springboot.repository.UserRepository;
 
-<<<<<<< HEAD
-@CrossOrigin(origins = "http://localhost:3000")
-=======
 @CrossOrigin(origins = "http://localhost:4200")
->>>>>>> 95e3ba1 (Springboot & Angular changes)
 @RestController
 @RequestMapping("api/")
 public class UserController {

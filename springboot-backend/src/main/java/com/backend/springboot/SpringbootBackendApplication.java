@@ -20,11 +20,7 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 
     @Override
     public void run(String...args) throws Exception {
-<<<<<<< HEAD
-        this.userRepository.save(new User("Ramesh", "Fadatare", "ramesh@gmail.com"));
-=======
         this.userRepository.save(new User("Ismail", "Shaikh", "ismail@gmail.com"));
->>>>>>> 95e3ba1 (Springboot & Angular changes)
         this.userRepository.save(new User("Tom", "Cruise", "tom@gmail.com"));
         this.userRepository.save(new User("Tony", "Stark", "tony@gmail.com"));
     }
