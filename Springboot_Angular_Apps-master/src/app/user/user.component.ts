@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-import {UserService} from '../user.service'
-=======
 import {UserService} from '../user.service';
->>>>>>> 95e3ba1 (Springboot & Angular changes)
 import { User } from '../user';
 
 @Component({
@@ -22,8 +18,4 @@ export class UserComponent implements OnInit {
       this.users = data;
     });
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 95e3ba1 (Springboot & Angular changes)

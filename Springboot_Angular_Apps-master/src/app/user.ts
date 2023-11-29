@@ -1,11 +1,4 @@
 export class User {
-<<<<<<< HEAD
-    id: number | undefined;
-    firstName: string | undefined;
-    lastName: string | undefined;
-    email: string | undefined;
-}
-=======
     id: number;
     firstName: string;
     lastName: string;
@@ -19,4 +12,3 @@ export class User {
       }
     
 }
->>>>>>> 95e3ba1 (Springboot & Angular changes)
